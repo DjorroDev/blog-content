@@ -51,7 +51,7 @@ useHead({
               <NuxtLink :to="article._path">
                 <div class="wrapper">
                   <div class="img-cont w-72 md:w-64">
-                    <img :src="`/${article.img}`" :alt="article.title" class="rounded-lg max-h-[8rem]" />
+                    <img-nuxt format="webp" :src="`/${article.img}`" :alt="article.title" class="rounded-lg max-h-[8rem]" />
                   </div>
                   <header>
                     <h1 class="text-2xl font-semibold">{{ article.title }}</h1>

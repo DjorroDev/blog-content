@@ -23,7 +23,7 @@ export default defineNuxtConfig({
   },
   nitro: {
     // serveStatic: true,
-    // preset: 'netlify-edge',
+    preset: 'netlify-edge',
     // output: 
 
   }

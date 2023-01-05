@@ -12,9 +12,7 @@
     "@nuxtjs/tailwindcss": "^6.2.0",
     "@tailwindcss/typography": "^0.5.8",
     "nuxt": "^3.0.0",
-    "nuxt-icon": "^0.1.8"
-  },
-  "dependencies": {
+    "nuxt-icon": "^0.1.8",
     "ipx": "^1.0.0-2"
   }
 }
