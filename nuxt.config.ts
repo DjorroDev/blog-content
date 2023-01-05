@@ -23,7 +23,7 @@ export default defineNuxtConfig({
   },
   nitro: {
     // serveStatic: true,
-    preset: 'netlify-builder',
+    // preset: 'netlify-builder',
     // output: 
 
   }
