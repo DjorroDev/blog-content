@@ -22,7 +22,7 @@ export default defineNuxtConfig({
     payloadExtraction: false
   },
   nitro: {
-    // serveStatic: true,
+    serveStatic: true,
     // preset: 'netlify-builder',
     // output: 
 
