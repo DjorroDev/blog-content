@@ -19,7 +19,7 @@
             <nuxt-img
               format="webp"
               class="absolute top-0 left-0 z-0 w-full h-full object-cover"
-              src="img/kucing.jpg"
+              src="/f/188427/1920x1080/c6187785bc/kucing.JPG"
             />
         </div>
         </header>

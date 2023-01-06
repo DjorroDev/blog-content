@@ -2,7 +2,7 @@
 title: 'keduaxx blog'
 description: 'This is first article!'
 tags: [nuxt, content, learning, koeocheng]
-img: 'img/cover3.png'
+img: 'f/188427/1920x1080/93287fd849/cover2.png'
 ---
 
 # pante

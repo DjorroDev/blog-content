@@ -2,7 +2,7 @@
 title: 'third blog'
 description: 'This is first article!'
 tags: [nuxt, content, learning, ketiga, gaming]
-img: 'img/cover2.png'
+img: 'f/188427/2560x1440/3ca679026b/cover3.png'
 ---
 
 # three

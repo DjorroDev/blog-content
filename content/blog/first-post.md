@@ -2,7 +2,7 @@
 title: 'Mamank first blog'
 description: 'This is first article!'
 tags: [nuxt, content, learning]
-img: 'img/cover1.png'
+img: 'f/188427/1920x1080/5cc90db984/cover1.png'
 ---
 
 # My first blog post
