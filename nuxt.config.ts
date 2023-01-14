@@ -26,13 +26,18 @@ export default defineNuxtConfig({
     // https://content.nuxtjs.org/api/configuration
     highlight: {
       theme: {
-        // Default theme (same as single string)
-        default: 'material-palenight',
-        // Theme used if `html.dark`
-        dark: 'github-dark',
+        default: 'github-dark',
       }
     }
   },
+
+  markdown: {
+    toc: {
+      depth: 5,
+      searchDepth: 5
+    },
+  },
+
   experimental: {
     payloadExtraction: false
   },

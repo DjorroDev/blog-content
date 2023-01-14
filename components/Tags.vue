@@ -37,7 +37,7 @@ const articleTags = [...new Set(flatten(data.value, "tags"))];
       <Icon name="heroicons:tag-solid" class="icon solid" />
       <span>Tags</span>
     </button>
-    <ul class="article-tags flex gap-2 overflow-x" :class="{ expanded: expanded }">
+    <ul class="article-tags flex gap-2" :class="{ expanded: expanded }">
       <!-- list out tags with links -->
       <li v-for="(tag, n) in articleTags" :key="n" class="tag">
         <NuxtLink :to="`/blog/tags/${tag}`" class="font-semibold"> {{ tag }} </NuxtLink>
@@ -55,10 +55,10 @@ const articleTags = [...new Set(flatten(data.value, "tags"))];
   @apply border-slate-200;
 }
 .article-tags {
-  @apply transition-all max-w-0 overflow-hidden;
+  @apply transition-all opacity-0 overflow-hidden;
 }
 .article-tags.expanded {
-  @apply max-w-full flex-wrap;
+  @apply max-w-full opacity-100 flex-wrap overflow-hidden;
 }
 .cta {
   @apply p-1.5 px-2 bg-slate-50 border border-slate-200 font-semibold rounded-lg;

@@ -14,6 +14,9 @@ const [prev, next] = data.value.surround;
 
 useHead({
   title: data.value.article.title,
+  htmlAttrs: {
+    lang: 'en'
+  },
   meta: [
     { name: "description", content: data.value.article.description },
     {
