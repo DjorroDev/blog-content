@@ -37,7 +37,7 @@
                   <header>
                     <h1 class="text-2xl font-semibold">{{ article.title }}</h1>
                     <p>{{ article.description }}</p>
-                    <ul class="article-tags">
+                    <ul class="article-tags w-96 md:w-fit">
                       <li class="tag !py-0.5" v-for="(tag, n) in article.tags" :key="n">{{ tag }}</li>
                     </ul>
                   </header>

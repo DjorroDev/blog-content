@@ -48,13 +48,13 @@ useHead({
             <li v-for="article in list" :key="article._path" class="article-item">
               <NuxtLink :to="article._path">
                 <div class="wrapper">
-                  <div class="img-cont w-72 md:w-64 shrink-0">
-                    <nuxt-img format="webp" :src="`/${article.img}`" :alt="article.title" class="rounded-lg md:max-h-[8rem]" />
+                  <div class="img-cont w-96 md:w-72 shrink-0">
+                    <nuxt-img format="webp" :src="`/${article.img}`" :alt="article.title" class="rounded-lg md:max-h-[10rem]" />
                   </div>
                   <header>
                     <h1 class="text-2xl font-semibold">{{ article.title }}</h1>
                     <p>{{ article.description }}</p>
-                    <ul class="article-tags">
+                    <ul class="article-tags w-96 md:w-fit">
                       <li class="tag !py-0.5" v-for="(tag, n) in article.tags" :key="n">{{ tag }}</li>
                     </ul>
                   </header>
