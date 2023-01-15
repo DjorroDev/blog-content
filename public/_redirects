@@ -1,1 +1,1 @@
-/blog/first-post  /blog/first-post/index.html 200!
+/blog/*  /blog/:splat/index.html 200!
