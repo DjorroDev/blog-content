@@ -20,8 +20,8 @@ useHead({
   meta: [
     { name: "description", content: data.value.article.description },
     {
-      hid: "og:image",
-      property: "og:image",
+      hid: "og:image:secure_url",
+      property: "og:image:secure_url",
       content: `https://a.storyblok.com/${data.value.article.img}`,
     },
   ],
