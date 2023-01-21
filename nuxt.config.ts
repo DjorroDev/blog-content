@@ -11,7 +11,13 @@ export default defineNuxtConfig({
       },
     ]
   ],
-  // target: 'static',
+
+  app: {
+    head: {
+      title: 'Djorro Blog'
+    },
+  },
+
   image: {
     provider: 'storyblok',
     storyblok: {

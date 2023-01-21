@@ -18,7 +18,8 @@
             />
         </div>
         <article>
-          <h1 class="text-center text-6xl font-bold py-20">Popular article</h1>
+          <h1 class="text-center text-6xl font-bold pt-20 pb-5">Popular article</h1>
+          <NuxtLink class="flex justify-center underline text-2xl" to="/blog">All Articles >></NuxtLink>
           <ContentList
             path="/blog"
             :query="{
@@ -48,16 +49,6 @@
           </ContentList>
         </article>
     </main>
-
-
-    <!-- <section class="flex items-center justify-center text-center w-full h-screen  bg-slate-50 text-slate-700">
-        <header>
-          
-        <h1 class="font-black text-6xl">Baca baca blog seru <NuxtLink class="underline" to="/blog">di sini!</NuxtLink> </h1>
-          <p class="my-2">Take a look at <NuxtLink class="underline" to="/blog">my blog</NuxtLink></p>
-          <Button/>
-        </header>
-      </section> -->
 </template>
 
 <style scoped>
