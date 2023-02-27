@@ -5,7 +5,7 @@ const props = defineProps(["type"])
 <template>
     <div class="info-box not-prose" :class="[type]">
         <Icon class="icon" name="heroicons-solid:exclamation-circle" v-if="type == 'warning'" />
-        <Icon class="icon" name="heroicons-solid:ban" v-if="type == 'error'" />
+        <Icon class="icon" name="heroicons-solid:ban" v-else-if="type == 'error'" />
         <Icon class="icon" name="heroicons-solid:information-circle" v-else />
 
         <details>

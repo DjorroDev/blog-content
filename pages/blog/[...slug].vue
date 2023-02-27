@@ -16,7 +16,7 @@ const [prev, next] = data.value.surround;
 useHead({
   title: data.value.article.title,
   htmlAttrs: {
-    lang: 'en'
+    lang: 'id'
   },
   meta: [
     { name: "description", content: data.value.article.description },
@@ -31,8 +31,9 @@ useHead({
 
 <template>
   <main id="main" class="article-main">
+    <!-- <pre>{{ data.article }}</pre> -->
     <header v-if="data.article" class="article-header">
-      <div class="img-cont h-72 mb-12">
+      <div class="img-cont">
         <nuxt-img 
           format="webp"
           :src="`/${data.article.img}`" 
@@ -40,6 +41,7 @@ useHead({
           class=" rounded-2xl" />
       </div>
       <h1 class="heading">{{ data.article.title }}</h1>
+      <p class="supporting">{{ formatDate(data.article.date) }}</p>
       <p class="supporting">{{ data.article.description }}</p>
       <ul class="article-tags flex gap-2">
         <li class="tag" v-for="(tag, n) in data.article.tags" :key="n">{{ tag }}</li>
@@ -77,7 +79,7 @@ useHead({
 }
 
 .article-main {
-  @apply p-4 max-w-5xl m-auto;
+  @apply p-1 md:p-4 max-w-5xl m-auto;
 }
 .article-header {
   @apply p-4 pb-12;
@@ -102,7 +104,7 @@ useHead({
 }
 
 .img-cont img {
-  @apply h-full w-full object-cover;
+  @apply max-h-96  w-full object-cover;
 }
 
 </style>
