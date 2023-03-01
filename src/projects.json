@@ -1,0 +1,52 @@
+{
+    "project": [
+        {
+            "title": "Djorro Blog",
+            "desc": "Website ini",
+            "link": "/blog",
+            "img": "/f/188427/1920x1080/778b9df280/blog.png"
+        },
+        {
+            "title": "Lokers",
+            "desc": "Tempat lowongan kerja yang dibuat menggunakan laravel. Project ini untuk tugas akhir CS50.",
+            "link": "https://youtu.be/LxXrpt6CdyY",
+            "img": "/f/188427/1280x720/b5b328aade/lokers.webp"
+        },
+        {
+            "title": "Quiz App",
+            "desc": "Sebuah website untuk membuat sebuah quiz dengan pilihan ganda.",
+            "link": "https://djorro-quiz-app.vercel.app/",
+            "img": "/f/188427/1920x1080/0418e0fbc9/quiz.png"
+        },
+        {
+            "title": "Tanyakan",
+            "desc": "Forum bertanya jawab seputar apa saja. Menggunakan VILT techstack.",
+            "link": "https://github.com/DjorroDev/Tanyakan",
+            "img": "/f/188427/831x463/634c190b57/tanyakan.png"
+        },
+        {
+            "title": "Workout Timer",
+            "desc": "Timer interval made with flutter and also my first flutter project.",
+            "link": "https://github.com/DjorroDev/Workout-Timer-flutter",
+            "img": "/f/188427/1080x2400/91208c611b/timer.png"
+        },
+        {
+            "title": "MVC Example",
+            "desc": "Building website from scratch with PHP base on MVC architectural pattern.",
+            "link": "https://github.com/DjorroDev/mvc-example",
+            "img": "/f/188427/604x339/eadfb69168/mvc.png"
+        },
+        {
+            "title": "Hungry Sharkie",
+            "desc": "A game built with scratch for fun.",
+            "link": "https://scratch.mit.edu/projects/652682166/",
+            "img": "/f/188427/1210x902/8f25027ec3/shark.png"
+        },
+        {
+            "title": "My old portofolio",
+            "desc": "My first ever try learn web developmnet. This site made with bootstrap",
+            "link": "https://djorrodev.github.io/",
+            "img": "/f/188427/1920x1080/5f3e5dabaf/portofolio.png"
+        }
+    ]
+}

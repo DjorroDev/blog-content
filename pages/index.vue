@@ -19,12 +19,14 @@
         </div>
       </section>
       <div class="min-w-max min-h-[200px] bg-gradient-to-t from-slate-100 to-white"></div>
-      <!-- <section class="flex flex-col justify-center items-center min-w-max bg-slate-100 min-h-[70vh] md:min-h-[50vh]">
-        <h1 class="text-4xl font-bold">MY WORKS</h1>
+      <section class="flex flex-col justify-center items-center min-w-max bg-slate-100 min-h-[70vh] md:min-h-[50vh]">
+        <h1 class="text-5xl md:text-6xl font-bold">MY WORKS</h1>
         <p>Some of my projects that I made</p>
-        <p>tos this day</p>
+        <p>to this day</p>
         <WorksCard/>
-      </section> -->
+      </section>
+      <div class="min-w-max min-h-[320px] bg-gradient-to-b from-slate-100 to-white"></div>
+      <footer class="p-4">&copy; Made by Djorro</footer>
 </template>
 
 <style scoped>
