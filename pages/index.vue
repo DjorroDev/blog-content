@@ -6,7 +6,10 @@
       <div class="w-full h-[62px] bg-slate-100 -translate-y-[62px] -mb-[62px]"></div>
       <section class="flex flex-col md:flex-row gap-24 pt-[160px] md:gap-36 justify-center items-center min-w-max bg-slate-100 min-h-[50vh] md:min-h-[50vh]">
         <h1 class="text-5xl md:text-7xl font-bold text-center md:text-start w-80">HI, WELCOME</h1>
-        <p class="w-80 text-center md:text-start font-semibold">I am Djorro, Discover the world of web development through my personal blog and dev log</p>
+        <div class="flex flex-col gap-5 flex-shrink-0 items-center md:items-start">
+          <p class="w-80 text-center md:text-start font-semibold">I am Djorro, Discover the world of web development through my personal blog and dev log</p>
+          <NuxtLink to="/blog" class="bg-slate-900 px-4 text-white py-3 max-w-fit rounded-lg hover:scale-110">Baca blog</NuxtLink>
+        </div>
       </section>
       <div class="min-w-max min-h-[160px] bg-gradient-to-b from-slate-100 to-white"></div>
       <section>
