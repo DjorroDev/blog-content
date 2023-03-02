@@ -17,4 +17,5 @@ useHead({
           Djorro is not just a web developer, but also a highly accomplished software engineer. His expertise in software engineering principles, combined with his passion for web development, makes him a valuable asset to any team. He has a strong understanding of multiple programming languages and can effectively design and implement complex systems with ease. Djorro is also highly skilled in problem-solving and is able to find creative solutions to even the most difficult technical challenges. With his unique combination of technical abilities and creative flair, Djorro is a true professional in the field of software engineering and web development. He is always striving to push the boundaries of what is possible and is dedicated to delivering exceptional results for his clients and employer.
         </p>
     </main>
+    <footer class="flex items-end pl-4 pb-4 min-w-max min-h-[50vh] bg-gradient-to-t from-slate-100 to-white">&copy; Made by Djorro</footer>
 </template>
