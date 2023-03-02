@@ -19,7 +19,7 @@ const flattenLinks = (links) => {
 <template>
     <nav class="toc">
         <header class="pb-2 mb-2 border-b border-slate-200">
-            <h3 class="text-xl font-bold"> Table of content </h3>
+            <h3 class="text-xl font-bold"> Daftar Isi </h3>
         </header>
         <ul class="toc-links">
             <li v-for="link in flattenLinks(links)" :key="link.id" :class="`toc-link toc-link_${link.depth}`">

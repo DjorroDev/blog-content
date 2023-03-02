@@ -1,7 +1,7 @@
 ---
 title: 'Teknologi yang digunakan dalam website ini'
 description: 'Banyaknya teknologi dan tools yang canggih di web dev gua harus memilih dalam pembuatan website gua ini'
-tags: [nuxt, content, learning]
+tags: [nuxt, tailwind, dev log, dev ]
 img: 'f/188427/1280x720/7d7e4fd038/techstack.png'
 date: [2023, 02, 25]
 ---
@@ -20,6 +20,8 @@ JAMSTACK itu adalah nama stack nya tapi teknologi nya ada banyak banget. Setelah
 - Netlify (Deployment host)
 
 Gua akan menjelaskan satu satu tools nya dan lumayan panjang jadi _brace yourself_ dan selamat membaca.
+
+> <font size="4">Baca juga: [Apa itu Jamstack? Manfaatnya dan kapan harus menggunakan](/blog/apa-itu-jamstack)</font>
 
 ::InfoBox{type=warning}
 
