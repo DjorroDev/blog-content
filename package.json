@@ -13,7 +13,10 @@
     "@nuxtjs/tailwindcss": "^6.2.0",
     "@storyblok/nuxt": "^4.6.0",
     "@tailwindcss/typography": "^0.5.8",
-    "nuxt": "^3.0.0",
+    "nuxt": "^3.2.3",
     "nuxt-icon": "^0.1.8"
+  },
+  "dependencies": {
+    "vue-gtag-next": "^1.14.0"
   }
 }
