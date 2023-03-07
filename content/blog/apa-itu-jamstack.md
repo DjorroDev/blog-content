@@ -3,7 +3,7 @@ title: 'Apa itu Jamstack? manfaatnya dan kapan harus menggunakan'
 description: 'Konsep utama dari Jamstack adalah memisahkan antara konten (content), logika bisnis (business logic), dan tampilan (presentation) ke dalam...'
 tags: [jamstack, static, web, dev]
 img: 'f/188427/1920x1080/15edb43f2c/apa-itu-jamstack.jpg'
-date: [03, 02, 2023]
+date: [2023, 03, 02]
 ---
 
 ## Apa itu jamstack
