@@ -3,7 +3,7 @@ title: 'Teknologi yang digunakan dalam website ini'
 description: 'Banyaknya teknologi dan tools yang canggih di web dev gua harus memilih dalam pembuatan website gua ini'
 tags: [nuxt, tailwind, dev log, dev ]
 img: 'f/188427/1280x720/7d7e4fd038/techstack.png'
-date: [2023, 02, 25]
+date: '2023-02-25'
 ---
 
 Haloo manusia manusia, mungkin kalian semua sudah menebak teknologi dan tools apa saja yang gua pakai pada web ini. Langsung aja cus kita bahas.

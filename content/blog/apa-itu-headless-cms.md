@@ -3,7 +3,7 @@ title: 'Apa itu Headless CMS'
 description: 'Berbeda dengan CMS pada umumnya seperti Wordpress. headless CMS lebih fleksibel'
 tags: [web, dev, static, jamstack, api]
 img: 'f/188427/1640x924/62c44a2f15/headless-cms.png'
-date: [2023, 03, 07]
+date: '2023-3-07'
 ---
 
 Halo semuanya, sepertinya gua memulai blog ini dengan membahas Jamstack. Ya ini salah satu series lanjutan tentang jamstack yaitu tools populer nya yaitu Headless CMS. Berbeda dengan CMS tradisional pada umumnya seperti wordpress. Bagi yang tidak tau CMS atau Content Management System adalah cara untuk mengatur konten atau data yang dimiliki pada website. Headless CMS ini unik dan wajib untuk dipelajari. Mari kita bahas.

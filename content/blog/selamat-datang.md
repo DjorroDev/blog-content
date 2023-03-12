@@ -3,7 +3,7 @@ title: 'Selamat datang selamat membaca'
 description: 'Perkenalan, pembahasan dan merayakan berhasilnya gua membuat website blog ini'
 tags: [personal, dev, welcome]
 img: 'f/188427/1280x720/4c447d3e14/djorro-net.png'
-date: [2023, 02, 21]
+date: '2023-02-21'
 ---
 
 # Sebuah awal yang baru
