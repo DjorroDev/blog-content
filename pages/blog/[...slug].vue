@@ -41,6 +41,11 @@ useHead({
       content: `https://a.storyblok.com/${data.value.article.img}`,
     },
     {
+      hid: 'og:image:width',
+      property: 'og:image:width',
+      content: `300`,
+    },
+    {
       hid: 'og:image:height',
       property: 'og:image:height',
       content: `300`,
