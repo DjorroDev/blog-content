@@ -25,6 +25,21 @@ useHead({
       property: "og:image:secure_url",
       content: `https://a.storyblok.com/${data.value.article.img}`,
     },
+    {
+          hid: 'og:description',
+          property: 'og:description',
+          content: data.value.article.description,
+    },
+    {
+      property: 'og:title',
+      hid: 'og:title',
+      content: data.value.article.title,
+    },
+    {
+      hid: 'og:image',
+      property: 'og:image',
+      content: `https://a.storyblok.com/${data.value.article.img}`,
+    },
   ],
 });
 </script>
